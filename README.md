@@ -8,7 +8,7 @@ your servers to allow SSH access for the Github team members.
 
 REQUIREMENTS
 ============
-Nodejs - Install it from [Here](https://nodejs.org)
+Nodejs - Install it from [Here](http://www.nodejs.org)
 
 INSTALL
 =======
@@ -38,4 +38,4 @@ EXAMPLES
 
 - Generate the authorized_keys file for team ABC in org NewCorp
 
-```node sync.js --github-token TOKEN --team-id 801500 --org ifeelgoods --output authorized_keys```
+```node sync.js --github-token TOKEN --team-id 123 --org NewCorp --output authorized_keys```
