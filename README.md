@@ -26,8 +26,7 @@ USAGE
 
 - Generate the authorized_keys file corresponding to the members of a single team
 
-```node sync.js --github-token TOKEN --org MY_GITHUB_ORG --team-id
-TEAM-ID --output PATH_TO_OUTPUT_FILE [--debug]```
+```node sync.js --github-token TOKEN --org MY_GITHUB_ORG --team-id TEAM-ID --output PATH_TO_OUTPUT_FILE [--debug]```
 
 
 EXAMPLES
@@ -37,4 +36,4 @@ EXAMPLES
 ```node sync.js --github-token TOKEN --org NewCorp --list-teams```
 
 - Generate the authorized_keys file for team ABC in org NewCorp
-```node sync.js --github-token TOKEN --team-id 801500 --org ifeelgoods --output authorized_keys
+```node sync.js --github-token TOKEN --team-id 801500 --org ifeelgoods --output authorized_keys```
