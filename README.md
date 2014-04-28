@@ -33,7 +33,9 @@ EXAMPLES
 ========
 
 - List Teams within the mozilla organization
+
 ```node sync.js --github-token TOKEN --org NewCorp --list-teams```
 
 - Generate the authorized_keys file for team ABC in org NewCorp
+
 ```node sync.js --github-token TOKEN --team-id 801500 --org ifeelgoods --output authorized_keys```
